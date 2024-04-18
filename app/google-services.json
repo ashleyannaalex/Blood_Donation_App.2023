@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "1047579352172",
+    "firebase_url": "https://test-app-2-34f7b-default-rtdb.firebaseio.com",
+    "project_id": "test-app-2-34f7b",
+    "storage_bucket": "test-app-2-34f7b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1047579352172:android:7f3a062cd75b4fc44f8c49",
+        "android_client_info": {
+          "package_name": "com.example.blooddonationapp3"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC0PnTird72Vu3D-CNIB32xS0U_Ed-xhnc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1047579352172:android:a5cdcaabff7206b54f8c49",
+        "android_client_info": {
+          "package_name": "com.example.testapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC0PnTird72Vu3D-CNIB32xS0U_Ed-xhnc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

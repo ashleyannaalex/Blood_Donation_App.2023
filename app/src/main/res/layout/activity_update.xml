@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@drawable/bd3"
+    tools:context=".UpdateActivity">
+
+    <EditText
+        android:id="@+id/editTextDonorName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Donor Name" />
+
+    <EditText
+        android:id="@+id/editTextDonorPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextDonorName"
+        android:layout_marginTop="16dp"
+        android:hint="Donor Phone" />
+
+    <EditText
+        android:id="@+id/editTextUpdatedAge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextDonorPhone"
+        android:layout_marginTop="16dp"
+        android:hint="Updated Age" />
+
+    <EditText
+        android:id="@+id/editTextUpdatedLocality"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextUpdatedAge"
+        android:layout_marginTop="16dp"
+        android:hint="Updated Locality" />
+
+    <Button
+        android:id="@+id/buttonUpdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextUpdatedLocality"
+        android:layout_marginTop="49dp"
+        android:backgroundTint="#D32F2F"
+        android:text="Update Donor Details"
+        android:textColor="@android:color/white" />
+
+</RelativeLayout>
